@@ -1,0 +1,339 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #161616;
+}
+
+#header{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    background-color: black;
+}
+
+#logo img{
+    height: 15%;
+    width: 15%;
+    margin: 18px 1px 1px 28px;
+}
+
+nav :hover{
+    color: aqua;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#link{
+    display: flex;
+    gap: 30px;
+}
+
+.content{
+    color: white;
+    font-size: large;
+    margin-right: 22px;
+}
+
+#hero{
+    padding: 4rem 9rem;
+    text-align: center;
+    background-color: black;
+}
+
+h1{
+    font-size: 3.5rem;
+    color: white;
+}
+
+span{
+    color: aqua;
+}
+
+p{
+    color: white;
+}
+
+#text{
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+#description{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+button{
+    background-color: #00d9d9;
+    color: #000;
+    cursor: pointer;
+    margin-top: 32px;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 0.6rem 1.5rem;
+    font-weight: bold;
+    border: none;
+}
+
+section {
+    padding: 1.5rem 3rem;
+    margin: auto;
+    color: #c770f0;
+
+
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#works{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    gap: 15px;
+}
+
+.work{
+    background-color: black;
+    padding: 2rem 2rem;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.work h3 {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: white;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.box a{
+    color: yellow;
+}
+
+.box p {
+  flex: 1;
+  font-size: 16px;
+  color: aqua;
+  margin: 0%;
+}
+
+.box img {
+  height: 150px; 
+  width: 220px;
+  object-fit: contain;
+}
+
+#skills{
+    display: flex;
+    color: white;
+    justify-content: flex-start;
+    gap: 55px;
+    margin-top: 40px;
+}
+
+.skill{
+    background-color: black;
+    padding: 0.6rem 1.5rem;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill img{
+    height: 52px;
+    width: 52px;
+    margin-top: 10px;
+}
+
+#Contact p{
+    font-size: 17px;
+}
+
+#footer{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+}
+
+#footer p{
+    text-align: center;
+    padding: 2rem 1rem;
+
+}
+
+/* Media Queries for Responsiveness */
+
+/* Tablets and below */
+@media (max-width: 1024px) {
+    #hero {
+        padding: 3rem 2rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    #text {
+        font-size: 22px;
+    }
+
+    #description {
+        font-size: 18px;
+    }
+
+    #skills {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .box img {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    #link {
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+    #header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+
+    #logo img {
+        width: 120px;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    nav#link {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .content {
+        margin: 5px 0;
+    }
+
+    #hero {
+        padding: 2rem 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    #text {
+        font-size: 18px;
+    }
+
+    #description {
+        font-size: 16px;
+    }
+
+    #works {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #skills {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    section {
+        padding: 1rem;
+    }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    #text {
+        font-size: 16px;
+    }
+
+    #description {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 0.5rem 1rem;
+    }
+
+    #footer p {
+        font-size: 14px;
+    }
+
+    #Contact p {
+        font-size: 15px;
+    }
+
+    .box img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+#hero,
+#footer {
+    width: 100vw;
+    box-sizing: border-box;
+}
