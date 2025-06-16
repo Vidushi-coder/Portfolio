@@ -7,7 +7,6 @@ This is a personal portfolio website created using **HTML** and **CSS** to showc
 ## 🖥️ Live Demo
 
 👉 [Click here to view the website](https://vidushi-coder.github.io/Portfolio/portfolio.html)  
-> _Note: For the best experience, open on a desktop browser._
 
 ---
 
@@ -15,7 +14,7 @@ This is a personal portfolio website created using **HTML** and **CSS** to showc
 
 - HTML5  
 - CSS3  
-- Flexbox and/or CSS Grid  
+- Flexbox 
 - Responsive Design 
 
 ---
@@ -32,8 +31,6 @@ This is a personal portfolio website created using **HTML** and **CSS** to showc
 ## 📸 Screenshots
 
 <p align = "center">
-  <img src="Images/ss1.png" alt="Screenshot 1" width="45%" />
-  <img src="Images/ss2.png" alt="Screenshot 2" width="45%" />
+  <img src="ss1.png" alt="Screenshot 1" width="45%" />
+  <img src="ss2.png" alt="Screenshot 2" width="45%" />
 </p>
-
----
