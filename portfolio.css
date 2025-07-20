@@ -298,13 +298,13 @@ p {
 
     #works {
         flex-direction: column;
-        align-items: center;
+        align-items: start;
     }
 
     .work-row {
         flex-direction: column;
         width: 100%;
-        align-items: center;
+        align-items: start;
     }
 
     .work,
@@ -356,13 +356,13 @@ p {
 
     #works {
         flex-direction: column;
-        align-items: center;
+        align-items: start;
     }
 
     .work-row {
         flex-direction: column;
         width: 100%;
-        align-items: center;
+        align-items: start;
     }
 
     .work,
