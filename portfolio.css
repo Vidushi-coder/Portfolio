@@ -90,6 +90,8 @@ section {
     padding: 1.5rem 3rem;
     margin: auto;
     color: #c770f0;
+
+
 }
 
 h2 {
@@ -140,6 +142,7 @@ p {
     justify-content: center;
     flex-wrap: wrap;
 }
+
 
 .work h3 {
     margin-bottom: 5px;
@@ -211,6 +214,8 @@ p {
     padding: 2rem 1rem;
 
 }
+
+
 
 /* Media Queries for Responsiveness */
 
