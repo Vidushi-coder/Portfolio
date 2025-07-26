@@ -31,6 +31,6 @@ This is a personal portfolio website created using **HTML** and **CSS** to showc
 ## 📸 Screenshots
 
 <p align = "center">
-  <img src="ss1.png" alt="Screenshot 1" width="45%" />
-  <img src="ss2.png" alt="Screenshot 2" width="45%" />
+  <img src="Images/ss1.png" alt="Screenshot 1" width="45%" />
+  <img src="Images/ss2.png" alt="Screenshot 2" width="45%" />
 </p>
