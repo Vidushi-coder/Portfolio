@@ -197,15 +197,23 @@ p {
 #footer p {
     text-align: center;
     padding: 2rem 1rem;
-
 }
 
-
+#hero,
+#footer {
+    width: 100%;
+    box-sizing: border-box;
+}
 
 /* Media Queries for Responsiveness */
 
 /* Tablets and below */
 @media (max-width: 1024px) {
+    * {
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
     #hero {
         padding: 3rem 2rem;
     }
@@ -359,10 +367,4 @@ p {
     .featured {
         width: 90%;
     }
-}
-
-#hero,
-#footer {
-    width: 100vw;
-    box-sizing: border-box;
 }
